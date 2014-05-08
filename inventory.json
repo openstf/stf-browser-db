@@ -9,17 +9,6 @@
       }
     }
   },
-  "android-sbrowser": {
-    "developer": "Samsung",
-    "name": "Browser",
-    "platforms": {
-      "android": {
-        "package": "com.sec.android.app.sbrowser",
-        "system": true
-      }
-    },
-    "supersedes": "android-browser"
-  },
   "baidu": {
     "developer": "Baidu Inc.",
     "name": "Baidu",
@@ -109,6 +98,17 @@
         "package": "com.opera.mini.android"
       }
     }
+  },
+  "samsung-sbrowser": {
+    "developer": "Samsung",
+    "name": "Browser",
+    "platforms": {
+      "android": {
+        "package": "com.sec.android.app.sbrowser",
+        "system": true
+      }
+    },
+    "supersedes": "android-browser"
   },
   "uc": {
     "developer": "UCWeb Inc.",
