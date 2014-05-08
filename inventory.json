@@ -1,7 +1,7 @@
 {
   "android-browser": {
-    "name": "Browser",
     "developer": "Google Inc.",
+    "name": "Browser",
     "platforms": {
       "android": {
         "package": "com.android.browser",
@@ -10,19 +10,28 @@
     }
   },
   "android-sbrowser": {
-    "supersedes": "android-browser",
-    "name": "Browser",
     "developer": "Samsung",
+    "name": "Browser",
     "platforms": {
       "android": {
         "package": "com.sec.android.app.sbrowser",
         "system": true
       }
+    },
+    "supersedes": "android-browser"
+  },
+  "baidu": {
+    "developer": "Baidu Inc.",
+    "name": "Baidu",
+    "platforms": {
+      "android": {
+        "package": "com.baidu.browser.inter"
+      }
     }
   },
   "chrome": {
-    "name": "Chrome",
     "developer": "Google Inc.",
+    "name": "Chrome",
     "platforms": {
       "android": {
         "package": "com.android.chrome"
@@ -30,17 +39,26 @@
     }
   },
   "chrome-beta": {
-    "name": "Chrome Beta",
     "developer": "Google Inc.",
+    "name": "Chrome Beta",
     "platforms": {
       "android": {
         "package": "com.chrome.beta"
       }
     }
   },
+  "explore": {
+    "developer": "Litter Penguin",
+    "name": "Explore",
+    "platforms": {
+      "android": {
+        "package": "com.explore.web.browser"
+      }
+    }
+  },
   "firefox": {
-    "name": "Firefox",
     "developer": "Mozilla",
+    "name": "Firefox",
     "platforms": {
       "android": {
         "package": "org.mozilla.firefox"
@@ -48,17 +66,26 @@
     }
   },
   "firefox-beta": {
-    "name": "Firefox Beta",
     "developer": "Mozilla",
+    "name": "Firefox Beta",
     "platforms": {
       "android": {
         "package": "org.mozilla.firefox_beta"
       }
     }
   },
+  "one": {
+    "developer": "Tencent Mobile International Ltd.",
+    "name": "ONE",
+    "platforms": {
+      "android": {
+        "package": "com.tencent.ibibo.mtt"
+      }
+    }
+  },
   "opera": {
-    "name": "Opera",
     "developer": "Opera Software ASA",
+    "name": "Opera",
     "platforms": {
       "android": {
         "package": "com.opera.browser"
@@ -66,8 +93,8 @@
     }
   },
   "opera-beta": {
-    "name": "Opera Beta",
     "developer": "Opera Software ASA",
+    "name": "Opera Beta",
     "platforms": {
       "android": {
         "package": "com.opera.browser.beta"
@@ -75,8 +102,8 @@
     }
   },
   "opera-mini": {
-    "name": "Opera Mini",
     "developer": "Opera Software ASA",
+    "name": "Opera Mini",
     "platforms": {
       "android": {
         "package": "com.opera.mini.android"
@@ -84,38 +111,11 @@
     }
   },
   "uc": {
-    "name": "UC",
     "developer": "UCWeb Inc.",
+    "name": "UC",
     "platforms": {
       "android": {
         "package": "com.UCMobile.intl"
-      }
-    }
-  },
-  "explore": {
-    "name": "Explore",
-    "developer": "Litter Penguin",
-    "platforms": {
-      "android": {
-        "package": "com.explore.web.browser"
-      }
-    }
-  },
-  "baidu": {
-    "name": "Baidu",
-    "developer": "Baidu Inc.",
-    "platforms": {
-      "android": {
-        "package": "com.baidu.browser.inter"
-      }
-    }
-  },
-  "one": {
-    "name": "ONE",
-    "developer": "Tencent Mobile International Ltd.",
-    "platforms": {
-      "android": {
-        "package": "com.tencent.ibibo.mtt"
       }
     }
   }

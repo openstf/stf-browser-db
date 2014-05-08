@@ -1,4 +1,4 @@
-inventory_json := index.json
+inventory_json := inventory.json
 apps := $(shell jq -r '"app-" + keys[]' $(inventory_json))
 
 # Don't autoremove any intermediate files; they should be cached.
