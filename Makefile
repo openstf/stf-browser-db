@@ -3,8 +3,12 @@ apps := $(shell jq -r '"app-" + keys[]' $(inventory_json))
 
 # Don't autoremove any intermediate files; they should be cached.
 .SECONDARY:
+.PHONY: clean
 
 all: $(apps)
+
+clean:
+	rm -rf build dist
 
 $(apps): app-% : \
 	dist/icon/16x16/%.png \
