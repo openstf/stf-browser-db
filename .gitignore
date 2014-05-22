@@ -2,3 +2,5 @@
 /*.tgz
 /node_modules/
 /temp/
+/build/
+/dist/
