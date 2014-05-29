@@ -110,6 +110,16 @@
     },
     "supersedes": "android-browser"
   },
+  "samsung-popupbrowser": {
+    "developer": "Samsung",
+    "name": "Popup Browser",
+    "platforms": {
+      "android": {
+        "package": "com.sec.webbrowserminiapp",
+        "system": true
+      }
+    }
+  },
   "uc": {
     "developer": "UCWeb Inc.",
     "name": "UC",
