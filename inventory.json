@@ -63,6 +63,16 @@
       }
     }
   },
+  "fujitsu-fbrowser": {
+    "developer": "Fujitsu",
+    "name": "Simplified Browser",
+    "platforms": {
+      "android": {
+        "package": "com.fujitsu.mobile_phone.fbrowser",
+        "system": true
+      }
+    }
+  },
   "one": {
     "developer": "Tencent Mobile International Ltd.",
     "name": "ONE",
