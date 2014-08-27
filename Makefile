@@ -18,21 +18,22 @@ build/platforms/android:
 	mkdir -p $@
 
 build/platforms/android/%.json: | build/platforms/android
-	if [ -f 'static/android/$*.json' ]; then \
+	if [ -s 'static/android/$*.json' ]; then \
 		cp 'static/android/$*.json' $@ \
 		; \
 	else \
 		jq -r '.["$*"].platforms.android.package' $(inventory_json) | \
-		xargs -I {} curl -sS "https://42matters.com/api/1/apps/lookup.json?access_token=$(FOURTYTWOMATTERS_APIKEY)&p={}&lang=en" | jq -S . > $@ \
+		xargs -I {} curl -sS -4 "https://play.google.com/store/apps/details?id={}&hl=en" | \
+		grep -Eo 'class="cover-image" src="([^"]+)"' | cut -c25- | awk '{print "{\"icon\":"$$0"}"}' | jq -S . > $@ \
 		; \
 	fi
 
 build/platforms/android/%.png: build/platforms/android/%.json | build/platforms/android
-	if [ -f 'static/android/$*.png' ]; then \
+	if [ -s 'static/android/$*.png' ]; then \
 		cp 'static/android/$*.png' $@ \
 		; \
 	else \
-		jq -r '.icon' $< | xargs -I {} curl -sS -o $@ {} \
+		jq -r '.icon' $< | xargs -I {} curl -sS -4 -o $@ {} \
 		; \
 	fi
 
