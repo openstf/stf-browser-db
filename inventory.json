@@ -73,6 +73,16 @@
       }
     }
   },
+  "htc-sense-browser": {
+    "developer": "HTC",
+    "name": "Browser",
+    "platforms": {
+      "android": {
+        "package": "com.htc.sense.browser",
+        "system": true
+      }
+    }
+  },
   "one": {
     "developer": "Tencent Mobile International Ltd.",
     "name": "ONE",
