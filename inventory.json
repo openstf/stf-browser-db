@@ -9,6 +9,16 @@
       }
     }
   },
+  "asus-browser": {
+    "developer": "ASUS",
+    "name": "Browser",
+    "platforms": {
+      "android": {
+        "package": "com.asus.browser",
+        "system": true
+      }
+    }
+  },
   "baidu": {
     "developer": "Baidu Inc.",
     "name": "Baidu",
