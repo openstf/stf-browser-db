@@ -93,6 +93,16 @@
       }
     }
   },
+  "lenovo-browser": {
+    "developer": "Lenovo",
+    "name": "Browser",
+    "platforms": {
+      "android": {
+        "package": "com.lenovo.browser",
+        "system": true
+      }
+    }
+  },
   "one": {
     "developer": "Tencent Mobile International Ltd.",
     "name": "ONE",
