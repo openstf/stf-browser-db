@@ -1,4 +1,14 @@
 {
+  "amazon-silk": {
+    "developer": "Amazon",
+    "name": "Silk",
+    "platforms": {
+      "android": {
+        "package": "com.amazon.cloud9",
+        "system": true
+      }
+    }
+  },
   "android-browser": {
     "developer": "Google Inc.",
     "name": "Browser",
