@@ -149,6 +149,16 @@
       }
     }
   },
+  "oppo-baidu-searchbox": {
+    "developer": "Baidu for Oppo",
+    "name": "Baidu",
+    "platforms": {
+      "android": {
+        "package": "com.baidu.searchbox_oppo",
+        "system": true
+      }
+    }
+  },
   "samsung-sbrowser": {
     "developer": "Samsung",
     "name": "Browser",
