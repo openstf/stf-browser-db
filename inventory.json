@@ -93,6 +93,16 @@
       }
     }
   },
+  "google-android-browser": {
+    "developer": "Google Inc.",
+    "name": "Browser",
+    "platforms": {
+      "android": {
+        "package": "com.google.android.browser",
+        "system": true
+      }
+    }
+  },
   "htc-sense-browser": {
     "developer": "HTC",
     "name": "Browser",
