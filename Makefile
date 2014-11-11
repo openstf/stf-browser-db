@@ -12,7 +12,7 @@ clean:
 
 $(apps): app-% : \
 	dist/icon/16x16/%.png \
-	dist/icon/32x32/%.png
+	dist/icon/36x36/%.png
 
 build/platforms/android:
 	mkdir -p $@
@@ -44,9 +44,9 @@ dist/icon/16x16/%.png: build/platforms/android/%.png | dist/icon/16x16
 	gm convert $< -resize 16x16 $@
 	pngcrush -q -brute $@ $@.crushed && mv $@.crushed $@
 
-dist/icon/32x32:
+dist/icon/36x36:
 	mkdir -p $@
 
-dist/icon/32x32/%.png: build/platforms/android/%.png | dist/icon/32x32
-	gm convert $< -resize 32x32 $@
+dist/icon/36x36/%.png: build/platforms/android/%.png | dist/icon/36x36
+	gm convert $< -resize 36x36 $@
 	pngcrush -q -brute $@ $@.crushed && mv $@.crushed $@
