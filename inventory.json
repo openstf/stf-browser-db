@@ -169,6 +169,15 @@
       }
     }
   },
+  "puffin-free": {
+    "developer": "CloudMosa Inc.",
+    "name": "Puffin Web Browser Free",
+    "platforms": {
+      "android": {
+        "package": "com.cloudmosa.puffinFree"
+      }
+    }
+  },
   "samsung-sbrowser": {
     "developer": "Samsung",
     "name": "Browser",
