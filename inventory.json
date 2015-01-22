@@ -123,6 +123,15 @@
       }
     }
   },
+  "maxthon": {
+    "developer": "Maxthon Browser",
+    "name": "Maxthon",
+    "platforms": {
+      "android": {
+        "package": "com.mx.browser"
+      }
+    }
+  },
   "one": {
     "developer": "Tencent Mobile International Ltd.",
     "name": "ONE",
@@ -205,6 +214,15 @@
     "platforms": {
       "android": {
         "package": "com.UCMobile.intl"
+      }
+    }
+  },
+  "uc-mini": {
+    "developer": "UCWeb Inc.",
+    "name": "UC Browser Mini",
+    "platforms": {
+      "android": {
+        "package": "com.uc.browser.en"
       }
     }
   }
