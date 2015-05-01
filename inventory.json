@@ -132,6 +132,16 @@
       }
     }
   },
+  "netstar-familysmile": {
+    "developer": "NetSTAR",
+    "name": "Family Smile",
+    "platforms": {
+      "android": {
+        "package": "jp.netstar.familysmile",
+        "system": true
+      }
+    }
+  },
   "one": {
     "developer": "Tencent Mobile International Ltd.",
     "name": "ONE",
