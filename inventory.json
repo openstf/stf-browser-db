@@ -218,6 +218,15 @@
       }
     }
   },
+  "softbank-parentalcontrols": {
+    "developer": "SoftBank",
+    "name": "Parental Controls",
+    "platforms": {
+      "android": {
+        "package": "jp.softbank.mb.parentalcontrols"
+      }
+    }
+  },
   "uc": {
     "developer": "UCWeb Inc.",
     "name": "UC",
