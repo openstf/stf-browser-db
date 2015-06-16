@@ -1,0 +1,14 @@
+{
+  "name": "stf-browser-db",
+  "version": "0.1.14",
+  "description": "Simple browser database with icons for STF",
+  "license": "Apache-2.0",
+  "main": "./index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openstf/stf-browser-db.git"
+  },
+  "scripts": {
+    "prepublish": "make"
+  }
+}
