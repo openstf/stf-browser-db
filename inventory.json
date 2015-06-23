@@ -244,5 +244,14 @@
         "package": "com.uc.browser.en"
       }
     }
+  },
+  "yahoo-yjtop": {
+    "developer": "Yahoo Japan Corp.",
+    "name": "Yahoo Japan",
+    "platforms": {
+      "android": {
+        "package": "jp.co.yahoo.android.yjtop"
+      }
+    }
   }
 }
