@@ -197,6 +197,16 @@
       }
     }
   },
+  "samsung-popupbrowser": {
+    "developer": "Samsung",
+    "name": "Popup Browser",
+    "platforms": {
+      "android": {
+        "package": "com.sec.webbrowserminiapp",
+        "system": true
+      }
+    }
+  },
   "samsung-sbrowser": {
     "developer": "Samsung",
     "name": "Browser",
@@ -207,16 +217,6 @@
       }
     },
     "supersedes": "android-browser"
-  },
-  "samsung-popupbrowser": {
-    "developer": "Samsung",
-    "name": "Popup Browser",
-    "platforms": {
-      "android": {
-        "package": "com.sec.webbrowserminiapp",
-        "system": true
-      }
-    }
   },
   "softbank-parentalcontrols": {
     "developer": "SoftBank",
