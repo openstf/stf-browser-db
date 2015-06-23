@@ -247,7 +247,7 @@
   },
   "yahoo-yjtop": {
     "developer": "Yahoo Japan Corp.",
-    "name": "Yahoo Japan",
+    "name": "Yahoo! JAPAN",
     "platforms": {
       "android": {
         "package": "jp.co.yahoo.android.yjtop"
