@@ -1,8 +1,19 @@
 {
   "name": "stf-browser-db",
   "version": "0.2.0",
-  "description": "Simple browser database with icons for STF",
+  "description": "A simple browser database with icons for STF.",
+  "keywords": [
+    "stf"
+  ],
+  "bugs": {
+    "url": "https://github.com/openstf/stf-browser-db/issues"
+  },
   "license": "Apache-2.0",
+  "author": {
+    "name": "CyberAgent, Inc.",
+    "email": "npm@cyberagent.co.jp",
+    "url": "http://www.cyberagent.co.jp/"
+  },
   "main": "./index",
   "repository": {
     "type": "git",
