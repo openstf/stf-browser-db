@@ -245,6 +245,15 @@
       }
     }
   },
+  "yahoo-ybrowser": {
+    "developer": "Yahoo Japan Corp.",
+    "name": "Yahoo! Browser",
+    "platforms": {
+      "android": {
+        "package": "jp.co.yahoo.android.ybrowser"
+      }
+    }
+  },
   "yahoo-yjtop": {
     "developer": "Yahoo Japan Corp.",
     "name": "Yahoo! JAPAN",
