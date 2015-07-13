@@ -56,6 +56,15 @@
       }
     }
   },
+  "chrome-dev": {
+    "developer": "Google Inc.",
+    "name": "Chrome Dev",
+    "platforms": {
+      "android": {
+        "package": "com.chrome.dev"
+      }
+    }
+  },
   "explore": {
     "developer": "Litter Penguin",
     "name": "Explore",
