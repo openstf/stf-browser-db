@@ -196,6 +196,15 @@
       }
     }
   },
+  "opera-mini-native": {
+    "developer": "Opera Software ASA",
+    "name": "Opera Mini",
+    "platforms": {
+      "android": {
+        "package": "com.opera.mini.native"
+      }
+    }
+  },
   "oppo-baidu-searchbox": {
     "developer": "Baidu for Oppo",
     "name": "Baidu",

@@ -8,7 +8,7 @@ apps := $(shell jq -r '"app-" + keys[]' $(inventory_json))
 all: $(apps)
 
 clean:
-	rm -rf build dist
+	rm -rf dist
 
 $(apps): app-% : \
 	dist/icon/16x16/%.png \
